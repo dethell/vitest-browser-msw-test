@@ -2,7 +2,6 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   test: {
-    environment: 'browser',
     globals: true,
     browser: {
         enabled: true,
