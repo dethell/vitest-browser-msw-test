@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "pretest": "npx playwright install"
   },
   "dependencies": {
     "lit": "^3.1.0"
